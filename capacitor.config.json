@@ -1,0 +1,28 @@
+{
+  "appId": "com.appify.oselfitai",
+  "appName": "OselFit Ai",
+  "webDir": "www",
+  "server": {
+    "url": "https://oselfit.chantan.one",
+    "cleartext": false,
+    "allowNavigation": [
+      "oselfit.chantan.one",
+      "*.oselfit.chantan.one"
+    ]
+  },
+  "backgroundColor": "#2b4fa8",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 1500,
+      "backgroundColor": "#2b4fa8",
+      "showSpinner": false
+    },
+    "PushNotifications": {
+      "presentationOptions": [
+        "badge",
+        "sound",
+        "alert"
+      ]
+    }
+  }
+}
